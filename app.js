@@ -1,7 +1,7 @@
 //Function to make random colors
 function randomRGB() {
   const r = Math.floor(Math.random() * 256); // * by 256 so 255 is included from the rbg scale
-  //const g = Math.floor(Math.random() * 256);
+  const g = 0;
   const b = Math.floor(Math.random() * 256);
   return`rgb(${r},${g},${b})`//return a string to follow the above format
 }
